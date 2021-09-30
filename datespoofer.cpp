@@ -6,7 +6,6 @@
 #include <vector>
 #include <cstddef>
 
-constexpr unsigned int DATE_STAMP_OFFSET = 0x8; // relative to the IMAGE_NT_HEADERS
 constexpr int IMAGE_NT_SIGNATURE_ = IMAGE_NT_SIGNATURE; 
 // cannot get address of macro so i have
 // to define a constant with the same value
